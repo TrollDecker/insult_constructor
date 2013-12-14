@@ -47,7 +47,7 @@ def construct_insult():
 		built_insult = built_insult + insult_list[insult_column][insult_select]
 		
 		# If the current insult column is before the last one, append a space, else append an exclamation mark.
-		if insult_column < 2:
+		if insult_column < len(insult_list) - 1:
 			built_insult = built_insult + " "
 		else:
 			built_insult = built_insult + "!"
