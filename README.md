@@ -1,6 +1,7 @@
 The Shakespearean Insult Constructor
 ====================================
 Constructs an insult based on three components, the final string preceded by "Thou"
+
 Based on and uses content from the Shakespearean Insult Kit at: http://web.mit.edu/dryfoo/Funny-pages/shakespeare-insult-kit.html
 
 What it needs
